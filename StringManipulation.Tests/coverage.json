@@ -1,0 +1,258 @@
+{
+  "StringManipulation.dll": {
+    "D:\\Cosas\\Mi Unidad\\Platzi\\Curso-Unit-Testing-CSharp-.NET\\StringManipulation\\IFileReaderConector.cs": {
+      "StringManipulation.FileReaderConector": {
+        "System.String StringManipulation.FileReaderConector::ReadString(System.String)": {
+          "Lines": {
+            "12": 0,
+            "14": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Cosas\\Mi Unidad\\Platzi\\Curso-Unit-Testing-CSharp-.NET\\StringManipulation\\StringOperations.cs": {
+      "StringManipulation.StringOperations": {
+        "System.String StringManipulation.StringOperations::ConcatenateStrings(System.String,System.String)": {
+          "Lines": {
+            "24": 1,
+            "25": 1,
+            "26": 1
+          },
+          "Branches": []
+        },
+        "System.String StringManipulation.StringOperations::ReverseString(System.String)": {
+          "Lines": {
+            "29": 2,
+            "30": 2,
+            "31": 2,
+            "32": 2,
+            "33": 2
+          },
+          "Branches": []
+        },
+        "System.Int32 StringManipulation.StringOperations::GetStringLength(System.String)": {
+          "Lines": {
+            "36": 2,
+            "37": 2,
+            "38": 1,
+            "39": 1,
+            "42": 1,
+            "43": 1
+          },
+          "Branches": [
+            {
+              "Line": 37,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 37,
+              "Offset": 7,
+              "EndOffset": 16,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.String StringManipulation.StringOperations::RemoveWhitespace(System.String)": {
+          "Lines": {
+            "46": 1,
+            "47": 1,
+            "48": 17,
+            "49": 1,
+            "50": 1
+          },
+          "Branches": []
+        },
+        "System.String StringManipulation.StringOperations::TruncateString(System.String,System.Int32)": {
+          "Lines": {
+            "53": 1,
+            "54": 1,
+            "55": 1,
+            "56": 1,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "64": 0,
+            "65": 0
+          },
+          "Branches": [
+            {
+              "Line": 54,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 54,
+              "Offset": 10,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 25,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 25,
+              "EndOffset": 41,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 44,
+              "EndOffset": 46,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 44,
+              "EndOffset": 51,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean StringManipulation.StringOperations::IsPalindrome(System.String)": {
+          "Lines": {
+            "68": 2,
+            "69": 2,
+            "70": 2,
+            "71": 2
+          },
+          "Branches": []
+        },
+        "System.Int32 StringManipulation.StringOperations::CountOccurrences(System.String,System.Char)": {
+          "Lines": {
+            "74": 1,
+            "75": 1,
+            "76": 27,
+            "77": 12,
+            "78": 12,
+            "79": 3,
+            "80": 3,
+            "81": 3,
+            "82": 12,
+            "84": 1,
+            "85": 1,
+            "86": 1
+          },
+          "Branches": [
+            {
+              "Line": 76,
+              "Offset": 47,
+              "EndOffset": 10,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 12
+            },
+            {
+              "Line": 78,
+              "Offset": 27,
+              "EndOffset": 29,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 78,
+              "Offset": 27,
+              "EndOffset": 35,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 12
+            },
+            {
+              "Line": 76,
+              "Offset": 47,
+              "EndOffset": 49,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.String StringManipulation.StringOperations::Pluralize(System.String)": {
+          "Lines": {
+            "89": 0,
+            "90": 0,
+            "91": 0
+          },
+          "Branches": []
+        },
+        "System.String StringManipulation.StringOperations::QuantintyInWords(System.String,System.Int32)": {
+          "Lines": {
+            "94": 1,
+            "95": 1,
+            "96": 1
+          },
+          "Branches": []
+        },
+        "System.Int32 StringManipulation.StringOperations::FromRomanToNumber(System.String)": {
+          "Lines": {
+            "99": 3,
+            "100": 3,
+            "101": 3
+          },
+          "Branches": []
+        },
+        "System.String StringManipulation.StringOperations::ReadFile(StringManipulation.IFileReaderConector,System.String)": {
+          "Lines": {
+            "104": 1,
+            "105": 1,
+            "106": 1
+          },
+          "Branches": []
+        },
+        "System.Void StringManipulation.StringOperations::.ctor()": {
+          "Lines": {
+            "15": 24,
+            "16": 12
+          },
+          "Branches": []
+        },
+        "System.Void StringManipulation.StringOperations::.ctor(Microsoft.Extensions.Logging.ILogger`1<StringManipulation.StringOperations>)": {
+          "Lines": {
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

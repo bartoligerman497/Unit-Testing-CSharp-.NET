@@ -1,0 +1,176 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Cosas\\Mi Unidad\\Platzi\\Curso-Unit-Testing-CSharp-.NET\\StringManipulation.Tests\\StringManipulation.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\Cosas\\Mi Unidad\\Platzi\\Curso-Unit-Testing-CSharp-.NET\\StringManipulation.Tests\\StringManipulation.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Cosas\\Mi Unidad\\Platzi\\Curso-Unit-Testing-CSharp-.NET\\StringManipulation.Tests\\StringManipulation.Tests.csproj",
+        "projectName": "StringManipulation.Tests",
+        "projectPath": "D:\\Cosas\\Mi Unidad\\Platzi\\Curso-Unit-Testing-CSharp-.NET\\StringManipulation.Tests\\StringManipulation.Tests.csproj",
+        "packagesPath": "C:\\Users\\German\\.nuget\\packages\\",
+        "outputPath": "D:\\Cosas\\Mi Unidad\\Platzi\\Curso-Unit-Testing-CSharp-.NET\\StringManipulation.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\German\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Cosas\\Mi Unidad\\Platzi\\Curso-Unit-Testing-CSharp-.NET\\StringManipulation\\StringManipulation.csproj": {
+                "projectPath": "D:\\Cosas\\Mi Unidad\\Platzi\\Curso-Unit-Testing-CSharp-.NET\\StringManipulation\\StringManipulation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.7.2, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.69, )"
+            },
+            "ReportGenerator": {
+              "target": "Package",
+              "version": "[5.1.26, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Cosas\\Mi Unidad\\Platzi\\Curso-Unit-Testing-CSharp-.NET\\StringManipulation\\StringManipulation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Cosas\\Mi Unidad\\Platzi\\Curso-Unit-Testing-CSharp-.NET\\StringManipulation\\StringManipulation.csproj",
+        "projectName": "StringManipulation",
+        "projectPath": "D:\\Cosas\\Mi Unidad\\Platzi\\Curso-Unit-Testing-CSharp-.NET\\StringManipulation\\StringManipulation.csproj",
+        "packagesPath": "C:\\Users\\German\\.nuget\\packages\\",
+        "outputPath": "D:\\Cosas\\Mi Unidad\\Platzi\\Curso-Unit-Testing-CSharp-.NET\\StringManipulation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\German\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Humanizer": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
